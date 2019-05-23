@@ -1,3 +1,9 @@
-# Steam video game purchase prediction and text mining
+# Steam video game purchase prediction
+Recommender system based on users' game purchased history on Steam as well as products' features.
 
-Prediction of  certain user would purchase or would not certain game or not. Also, we do sentiment analysis to text review so as to somehow find the importance of element to improve or sustain.  The project is with report.
+The project include:
+1. Randomly generates rows of user-nobuy-products for later testing accuracy.
+2. Data processing - matching product and genere, and perform web scraping for product genres from steam website.
+3. Jaccard Similarity approach
+4. Cosine Similarity approach
+5. Result and performance metrics
